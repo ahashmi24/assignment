@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite]" parallel="methods">
+  <parameter name="str_portNumber" value="Desktop_Web"/>
+  <parameter name="appName" value="Avis_Car_Hire_v4.7.004_STAGE_1705.apk"/>
+  <parameter name="deviceVersion" value="6.0.1"/>
+  <parameter name="platformName" value="Local"/>
+  <parameter name="deviceName" value="ONE E1003"/>
+  <parameter name="deviceUDID" value="55e9b522"/>
+  <test name="Mobile_Web(failed)" parallel="methods">
+    <parameter name="str_portNumber" value="Mobile_Web"/>
+    <parameter name="appName" value="Avis Car Hire_v4.7.003_STAGE_1505.ipa"/>
+    <parameter name="deviceVersion" value="12.2"/>
+    <parameter name="platformName" value="Desktop_Web"/>
+    <parameter name="deviceName" value="iPhone 8 plus"/>
+    <parameter name="deviceUDID" value="9204c2fdce263ab9569a676d7e68d4e6904a7366"/>
+    <classes>
+      <class name="utils.CloudDemoSelenium">
+        <methods>
+          <include name="demoScript"/>
+          <include name="f"/>
+          <include name="f"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- utils.CloudDemoSelenium -->
+    </classes>
+  </test> <!-- Mobile_Web(failed) -->
+  <test name="Desktop_Web(failed)" parallel="methods">
+    <parameter name="str_portNumber" value="Desktop_Web"/>
+    <parameter name="appName" value="Avis_Car_Hire_v4.7.004_STAGE_1705.apk"/>
+    <parameter name="deviceVersion" value="6.0.1"/>
+    <parameter name="platformName" value="Desktop_Web"/>
+    <parameter name="deviceName" value="ONE E1003"/>
+    <parameter name="deviceUDID" value="55e9b522"/>
+    <classes>
+      <class name="utils.CloudDemoSelenium">
+        <methods>
+          <include name="demoScript"/>
+          <include name="f"/>
+          <include name="f"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- utils.CloudDemoSelenium -->
+    </classes>
+  </test> <!-- Desktop_Web(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Locators>
+
+	
+	<launcherScreens>
+    	<signInButton><![CDATA[id=com.amazon.mShop.android.shopping:id/sign_in_button]]></signInButton>
+    	<emailField><![CDATA[class=android.widget.EditText]]></emailField>
+    	<continueButton><![CDATA[class=android.widget.Button]]></continueButton>
+    	<showPasswordCheckBox><![CDATA[class=android.widget.CheckBox]]></showPasswordCheckBox>
+    	<passwordField><![CDATA[class=android.widget.EditText]]></passwordField>
+    	<loginButton_list><![CDATA[class=android.widget.Button]]></loginButton_list>
+ 	</launcherScreens>
+ 	
+	
+	<homeScreen>
+    	<hamburgerIcon><![CDATA[id=com.amazon.mShop.android.shopping:id/action_bar_burger_icon]]></hamburgerIcon>
+    	<hamburgerList><![CDATA[id=com.amazon.mShop.android.shopping:id/drawer_item_title]]></hamburgerList>
+    	<countryButton_list><![CDATA[class=android.widget.Button]]></countryButton_list>
+    	<country_list><![CDATA[class=android.widget.RadioButton]]></country_list>
+    	<searchField><![CDATA[class=android.widget.EditText]]></searchField>
+    	<autoDropList><![CDATA[class=android.widget.LinearLayout]]></autoDropList>
+ 	</homeScreen>
+ 	
+	<searchResultScreen>
+    	<scrolling_id><![CDATA[com.amazon.mShop.android.shopping:id/wish_list_bottom_sheet_fragment]]></scrolling_id>
+    	<productList_1><![CDATA[//android.view.View[@index=']]></productList_1>
+    	<productList_2><![CDATA[']]]></productList_2>
+    	
+ 	</searchResultScreen>
+ 	
+	<PDP>
+    	<byingOption><![CDATA[class=android.widget.Button]]></byingOption>android.widget.TextView
+    	<cartIcon><![CDATA[class=android.widget.TextView]]></cartIcon>
+ 	</PDP>
+	
+ 	<cartScreen>
+    	<parentDiv><![CDATA[//android.view.View[@index='2'][@checkable='false']]]></parentDiv>
+    	<childElement><![CDATA[class=android.view.View]]></childElement>
+    	
+ 	</cartScreen>
+ 	
+
+</Locators>

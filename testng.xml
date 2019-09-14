@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="AmazonHappyPath" >
+  
+  <listeners>
+ 		<listener class-name="utils.MyListener"></listener>		
+ 	</listeners>
+  
+  <test name="Amazon">
+  
+  	
+  	<classes>
+      
+      <class name="utils.BaseClass"/>
+      <class name="testScripts.TestScripts">
+      <methods>
+      <include name="loginToApplication"></include>
+      <include name="changeCountry"></include>
+      <include name="searchForAnItem"></include>
+      <include name="addToCart"></include>
+      </methods>
+      
+      </class>
+     
+    </classes>  
+  
+  </test> <!-- Amazon -->
+  
+  
+</suite> <!-- AmazonHappyPath -->

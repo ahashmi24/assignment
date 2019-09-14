@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AmazonHappyPath" duration-ms="118025" started-at="2019-09-14T16:09:33Z" finished-at="2019-09-14T16:11:31Z">
+    <groups>
+    </groups>
+    <test name="Amazon" duration-ms="118025" started-at="2019-09-14T16:09:33Z" finished-at="2019-09-14T16:11:31Z">
+      <class name="testScripts.TestScripts">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testScripts.TestScripts@14bf9759]" name="setUp" is-config="true" duration-ms="13594" started-at="2019-09-14T21:39:33Z" finished-at="2019-09-14T21:39:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:testScripts.TestScripts@14bf9759]" name="loginToApplication" duration-ms="27741" started-at="2019-09-14T21:39:47Z" finished-at="2019-09-14T21:40:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="changeCountry()[pri:0, instance:testScripts.TestScripts@14bf9759]" name="changeCountry" duration-ms="28013" started-at="2019-09-14T21:40:14Z" finished-at="2019-09-14T21:40:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeCountry -->
+        <test-method status="PASS" signature="searchForAnItem()[pri:0, instance:testScripts.TestScripts@14bf9759]" name="searchForAnItem" duration-ms="26386" started-at="2019-09-14T21:40:43Z" finished-at="2019-09-14T21:41:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchForAnItem -->
+        <test-method status="PASS" signature="addToCart()[pri:0, instance:testScripts.TestScripts@14bf9759]" name="addToCart" duration-ms="21149" started-at="2019-09-14T21:41:09Z" finished-at="2019-09-14T21:41:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testScripts.TestScripts@14bf9759]" name="afterClass" is-config="true" duration-ms="596" started-at="2019-09-14T21:41:30Z" finished-at="2019-09-14T21:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testScripts.TestScripts@14bf9759]" name="afterTest" is-config="true" duration-ms="428" started-at="2019-09-14T21:41:31Z" finished-at="2019-09-14T21:41:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testScripts.TestScripts -->
+    </test> <!-- Amazon -->
+  </suite> <!-- AmazonHappyPath -->
+</testng-results>
